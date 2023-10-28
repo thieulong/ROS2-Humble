@@ -1,0 +1,7 @@
+{
+  "package_name": "battery_status",
+  "non_idl_tuples": [
+    "/home/thieulong/ROS2-WorkSpace/src/battery_status:msg/LEDState.msg",
+    "/home/thieulong/ROS2-WorkSpace/src/battery_status:srv/SetLED.srv"
+  ]
+}

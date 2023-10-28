@@ -1,0 +1,18 @@
+[0.841s] Invoking command in '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build --no-deps install_data
+[1.134s] running develop
+[1.355s] running egg_info
+[1.355s] writing my_py_pkg.egg-info/PKG-INFO
+[1.355s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.356s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.356s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.356s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.357s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.358s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.359s] running build_ext
+[1.359s] Creating /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.360s] Installing py_node script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.360s] Installing robot_news_station script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.360s] 
+[1.360s] Installed /home/thieulong/ROS2-WorkSpace/build/my_py_pkg
+[1.360s] running install_data
+[1.391s] Invoked command in '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg' returned '0': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,27 @@
+[0.820s] Invoking command in '/home/thieulong/ROS2-WorkSpace/src/my_py_pkg': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build install --record /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log --single-version-externally-managed
+[1.092s] running egg_info
+[1.092s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.093s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.093s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.093s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.093s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.094s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.095s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.095s] running build
+[1.095s] running build_py
+[1.096s] copying my_py_pkg/number_publisher.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.096s] running install
+[1.096s] running install_lib
+[1.097s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.097s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[1.097s] running install_data
+[1.098s] running install_egg_info
+[1.099s] removing '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.100s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.100s] running install_scripts
+[1.118s] Installing number_publisher script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.118s] Installing py_node script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.118s] Installing robot_news_station script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.118s] Installing smartphone script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.118s] writing list of installed files to '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log'
+[1.144s] Invoked command in '/home/thieulong/ROS2-WorkSpace/src/my_py_pkg' returned '0': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build install --record /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log --single-version-externally-managed

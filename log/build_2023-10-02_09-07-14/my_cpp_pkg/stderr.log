@@ -1,0 +1,8 @@
+[01m[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartphoneNode::SmartphoneNode()[m[K’:
+[01m[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:11:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   11 |         std::bind(&SmartphoneNode[01;31m[K:[m[KcallbackRobotNews, this, std::placeholders::_1));
+      |                                  [01;31m[K^[m[K
+      |                                  [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

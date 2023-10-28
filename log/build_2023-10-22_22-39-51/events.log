@@ -1,0 +1,308 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000129] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000147] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000164] (battery_status) JobQueued: {'identifier': 'battery_status', 'dependencies': OrderedDict()}
+[0.000180] (battery_status) JobStarted: {'identifier': 'battery_status'}
+[0.085333] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'cmake'}
+[0.086675] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'build'}
+[0.086712] (battery_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thieulong/ROS2-WorkSpace/build/battery_status', '--', '-j8', '-l8'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/battery_status', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0aeb0c4a-fcb4-4d38-bd96-0c32307193dc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/battery_status'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099423] (-) TimerEvent: {}
+[0.106130] (battery_status) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199540] (-) TimerEvent: {}
+[0.251270] (battery_status) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.253337] (battery_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.256180] (battery_status) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.285600] (battery_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299639] (-) TimerEvent: {}
+[0.399850] (-) TimerEvent: {}
+[0.500106] (-) TimerEvent: {}
+[0.513894] (battery_status) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600226] (-) TimerEvent: {}
+[0.670516] (battery_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700308] (-) TimerEvent: {}
+[0.800565] (-) TimerEvent: {}
+[0.864916] (battery_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.885032] (battery_status) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.900694] (-) TimerEvent: {}
+[0.905590] (battery_status) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.905727] (battery_status) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.905793] (battery_status) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.919078] (battery_status) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.943426] (battery_status) StdoutLine: {'line': b'-- Generating done\n'}
+[0.945809] (battery_status) StdoutLine: {'line': b'-- Build files have been written to: /home/thieulong/ROS2-WorkSpace/build/battery_status\n'}
+[0.963634] (battery_status) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.971647] (battery_status) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.980081] (battery_status) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_battery_status\n'}
+[1.000821] (-) TimerEvent: {}
+[1.101084] (-) TimerEvent: {}
+[1.201339] (-) TimerEvent: {}
+[1.285913] (battery_status) StdoutLine: {'line': b'[  5%] Built target battery_status__cpp\n'}
+[1.286168] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_generator_c\x1b[0m\n'}
+[1.290521] (battery_status) StdoutLine: {'line': b'running egg_info\n'}
+[1.291362] (battery_status) StdoutLine: {'line': b'writing battery_status.egg-info/PKG-INFO\n'}
+[1.291887] (battery_status) StdoutLine: {'line': b'writing dependency_links to battery_status.egg-info/dependency_links.txt\n'}
+[1.292039] (battery_status) StdoutLine: {'line': b'writing top-level names to battery_status.egg-info/top_level.txt\n'}
+[1.294960] (battery_status) StdoutLine: {'line': b"reading manifest file 'battery_status.egg-info/SOURCES.txt'\n"}
+[1.295719] (battery_status) StdoutLine: {'line': b"writing manifest file 'battery_status.egg-info/SOURCES.txt'\n"}
+[1.296599] (battery_status) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.297553] (battery_status) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.297819] (battery_status) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.299323] (battery_status) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_generator_c.dir/rosidl_generator_c/battery_status/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[1.299578] (battery_status) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_generator_c.dir/rosidl_generator_c/battery_status/msg/detail/led_state__functions.c.o\x1b[0m\n'}
+[1.301446] (-) TimerEvent: {}
+[1.330611] (battery_status) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_battery_status_egg\n'}
+[1.362898] (battery_status) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbattery_status__rosidl_generator_c.so\x1b[0m\n'}
+[1.396406] (battery_status) StdoutLine: {'line': b'[ 20%] Built target battery_status__rosidl_generator_c\n'}
+[1.401542] (-) TimerEvent: {}
+[1.406258] (battery_status) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.408071] (battery_status) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.408307] (battery_status) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.501637] (-) TimerEvent: {}
+[1.602006] (-) TimerEvent: {}
+[1.647834] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_c\x1b[0m\n'}
+[1.661890] (battery_status) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_status/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[1.662145] (battery_status) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_status/msg/led_state__type_support.cpp.o\x1b[0m\n'}
+[1.676676] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.698236] (battery_status) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_status/msg/led_state__type_support.cpp.o\x1b[0m\n'}
+[1.702111] (-) TimerEvent: {}
+[1.702373] (battery_status) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_status/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[1.703172] (battery_status) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_status__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.711469] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.726754] (battery_status) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_status/msg/detail/led_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.727544] (battery_status) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_status/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[1.767714] (battery_status) StdoutLine: {'line': b'[ 46%] Built target battery_status__rosidl_typesupport_c\n'}
+[1.782666] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.799672] (battery_status) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_status/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[1.800915] (battery_status) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_status/msg/detail/led_state__type_support.cpp.o\x1b[0m\n'}
+[1.802187] (-) TimerEvent: {}
+[1.805712] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.835478] (battery_status) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_status/msg/detail/dds_fastrtps/led_state__type_support.cpp.o\x1b[0m\n'}
+[1.902303] (-) TimerEvent: {}
+[1.959150] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.986411] (battery_status) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_status/msg/detail/led_state__type_support.c.o\x1b[0m\n'}
+[2.002421] (-) TimerEvent: {}
+[2.039125] (battery_status) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_status/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[2.090698] (battery_status) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libbattery_status__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.102534] (-) TimerEvent: {}
+[2.110894] (battery_status) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/battery_status__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_status/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[2.152799] (battery_status) StdoutLine: {'line': b'[ 64%] Built target battery_status__rosidl_typesupport_introspection_c\n'}
+[2.159079] (battery_status) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_status__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.202643] (-) TimerEvent: {}
+[2.228066] (battery_status) StdoutLine: {'line': b'[ 66%] Built target battery_status__rosidl_typesupport_cpp\n'}
+[2.271000] (battery_status) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_status__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.302784] (-) TimerEvent: {}
+[2.356887] (battery_status) StdoutLine: {'line': b'[ 69%] Built target battery_status__rosidl_typesupport_fastrtps_c\n'}
+[2.402902] (-) TimerEvent: {}
+[2.457429] (battery_status) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_status__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.503040] (-) TimerEvent: {}
+[2.530203] (battery_status) StdoutLine: {'line': b'[ 71%] Built target battery_status__rosidl_typesupport_introspection_cpp\n'}
+[2.558248] (battery_status) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_status__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.603172] (-) TimerEvent: {}
+[2.625569] (battery_status) StdoutLine: {'line': b'[ 74%] Built target battery_status__rosidl_typesupport_fastrtps_cpp\n'}
+[2.643531] (battery_status) StdoutLine: {'line': b'[ 74%] Built target battery_status\n'}
+[2.664110] (battery_status) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.703293] (-) TimerEvent: {}
+[2.803575] (-) TimerEvent: {}
+[2.903832] (-) TimerEvent: {}
+[3.004083] (-) TimerEvent: {}
+[3.045359] (battery_status) StdoutLine: {'line': b'[ 76%] Built target battery_status__py\n'}
+[3.054610] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_generator_py\x1b[0m\n'}
+[3.065940] (battery_status) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_generator_py.dir/rosidl_generator_py/battery_status/srv/_set_led_s.c.o\x1b[0m\n'}
+[3.066257] (battery_status) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_generator_py.dir/rosidl_generator_py/battery_status/msg/_led_state_s.c.o\x1b[0m\n'}
+[3.104215] (-) TimerEvent: {}
+[3.160542] (battery_status) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_status/libbattery_status__rosidl_generator_py.so\x1b[0m\n'}
+[3.194209] (battery_status) StdoutLine: {'line': b'[ 84%] Built target battery_status__rosidl_generator_py\n'}
+[3.203168] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.203394] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.203515] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.204282] (-) TimerEvent: {}
+[3.214722] (battery_status) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/battery_status/_battery_status_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.214954] (battery_status) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/battery_status/_battery_status_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.215078] (battery_status) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/battery_status__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/battery_status/_battery_status_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.304405] (-) TimerEvent: {}
+[3.304878] (battery_status) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.306239] (battery_status) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.306441] (battery_status) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.335148] (battery_status) StdoutLine: {'line': b'[100%] Built target battery_status__rosidl_typesupport_introspection_c__pyext\n'}
+[3.335387] (battery_status) StdoutLine: {'line': b'[100%] Built target battery_status__rosidl_typesupport_c__pyext\n'}
+[3.335552] (battery_status) StdoutLine: {'line': b'[100%] Built target battery_status__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.346163] (battery_status) CommandEnded: {'returncode': 0}
+[3.398148] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'install'}
+[3.404474] (-) TimerEvent: {}
+[3.405173] (battery_status) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thieulong/ROS2-WorkSpace/build/battery_status'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/battery_status', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0aeb0c4a-fcb4-4d38-bd96-0c32307193dc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/battery_status'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[3.412550] (battery_status) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.412771] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/rosidl_interfaces/battery_status\n'}
+[3.412903] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.412991] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.413060] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/led_state.h\n'}
+[3.413128] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.413238] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.413304] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__functions.h\n'}
+[3.413364] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.h\n'}
+[3.413422] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__struct.h\n'}
+[3.413481] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__functions.c\n'}
+[3.413539] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.413658] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/set_led.h\n'}
+[3.413741] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.413832] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__functions.h\n'}
+[3.413920] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.h\n'}
+[3.414004] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__functions.c\n'}
+[3.414087] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__struct.h\n'}
+[3.414172] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/library_path.sh\n'}
+[3.414231] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/library_path.dsv\n'}
+[3.414373] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_c.so\n'}
+[3.414633] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_c.so" to ""\n'}
+[3.414729] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.414836] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.414896] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.414996] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.415058] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h\n'}
+[3.415118] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.415201] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.415268] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[3.415351] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_c.so\n'}
+[3.415560] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.415676] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.415740] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.415802] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.415929] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_introspection_c.h\n'}
+[3.415995] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.c\n'}
+[3.416070] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.416132] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.416194] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.416255] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[3.416316] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.c\n'}
+[3.416401] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_c.so\n'}
+[3.416482] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.416560] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_c.so\n'}
+[3.416708] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_c.so" to ""\n'}
+[3.416825] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.416886] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.416947] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.417008] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__traits.hpp\n'}
+[3.417090] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__builder.hpp\n'}
+[3.417203] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__struct.hpp\n'}
+[3.417269] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/led_state.hpp\n'}
+[3.417330] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.417391] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.417451] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__struct.hpp\n'}
+[3.417534] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__traits.hpp\n'}
+[3.417656] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__builder.hpp\n'}
+[3.417757] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/set_led.hpp\n'}
+[3.417840] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.417899] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.417959] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.418021] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.418082] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/dds_fastrtps\n'}
+[3.418143] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.418203] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.418264] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.418324] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/dds_fastrtps\n'}
+[3.418384] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.418468] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.418583] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.418661] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[3.418722] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[3.418800] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[3.418863] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.cpp\n'}
+[3.418925] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.418986] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[3.419047] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[3.419108] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.cpp\n'}
+[3.419170] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.419271] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_cpp.so\n'}
+[3.419331] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.419389] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_cpp.so\n'}
+[3.419470] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_cpp.so" to ""\n'}
+[3.419549] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/pythonpath.sh\n'}
+[3.419631] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/pythonpath.dsv\n'}
+[3.419716] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info\n'}
+[3.419801] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.419902] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.419963] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.420057] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.420117] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status\n'}
+[3.420178] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.420261] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg\n'}
+[3.420357] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/_led_state_s.c\n'}
+[3.420421] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/_led_state.py\n'}
+[3.420482] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/__init__.py\n'}
+[3.420565] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.420664] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv\n'}
+[3.420741] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/_set_led_s.c\n'}
+[3.420803] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/_set_led.py\n'}
+[3.420893] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/__init__.py\n'}
+[3.420955] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.421016] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.421098] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/libbattery_status__rosidl_generator_py.so\n'}
+[3.421218] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.421307] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/__init__.py\n'}
+[3.421369] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_c.c\n'}
+[3.452426] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status'...\n"}
+[3.452585] (battery_status) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/__init__.py'...\n"}
+[3.452652] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg'...\n"}
+[3.452710] (battery_status) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/__init__.py'...\n"}
+[3.452767] (battery_status) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/_led_state.py'...\n"}
+[3.452822] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv'...\n"}
+[3.452877] (battery_status) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/__init__.py'...\n"}
+[3.452931] (battery_status) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/_set_led.py'...\n"}
+[3.456613] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.456813] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.456935] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.457105] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.457287] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.457480] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.457605] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_py.so\n'}
+[3.457846] (battery_status) StdoutLine: {'line': b'-- Set runtime path of "/home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_py.so" to ""\n'}
+[3.457924] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/msg/LEDState.idl\n'}
+[3.458008] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED.idl\n'}
+[3.458090] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/msg/LEDState.msg\n'}
+[3.458148] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED.srv\n'}
+[3.458228] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED_Request.msg\n'}
+[3.458302] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED_Response.msg\n'}
+[3.458395] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/package_run_dependencies/battery_status\n'}
+[3.458497] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/parent_prefix_path/battery_status\n'}
+[3.458555] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/ament_prefix_path.sh\n'}
+[3.458614] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/ament_prefix_path.dsv\n'}
+[3.458691] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/path.sh\n'}
+[3.458790] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/path.dsv\n'}
+[3.458862] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.bash\n'}
+[3.458919] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.sh\n'}
+[3.458974] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.zsh\n'}
+[3.459031] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.dsv\n'}
+[3.459088] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/package.dsv\n'}
+[3.459166] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/packages/battery_status\n'}
+[3.459276] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cExport.cmake\n'}
+[3.459343] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.459402] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.459461] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.459520] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.459635] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.459695] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cExport.cmake\n'}
+[3.459754] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.459813] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cppExport.cmake\n'}
+[3.459872] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.459930] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.459988] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.460062] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.460123] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cppExport.cmake\n'}
+[3.460249] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.460308] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_pyExport.cmake\n'}
+[3.460364] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.460419] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake-extras.cmake\n'}
+[3.460474] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.460529] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.460584] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.460646] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.460701] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.460756] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.460810] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_statusConfig.cmake\n'}
+[3.460865] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_statusConfig-version.cmake\n'}
+[3.460919] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/package.xml\n'}
+[3.462288] (battery_status) CommandEnded: {'returncode': 0}
+[3.505073] (-) TimerEvent: {}
+[3.605568] (-) TimerEvent: {}
+[3.706243] (-) TimerEvent: {}
+[3.723293] (battery_status) JobEnded: {'identifier': 'battery_status', 'rc': 0}
+[3.723633] (-) EventReactorShutdown: {}

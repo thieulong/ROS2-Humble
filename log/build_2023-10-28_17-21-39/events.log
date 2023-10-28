@@ -1,0 +1,666 @@
+[0.000000] (-) TimerEvent: {}
+[0.000992] (battery_status) JobQueued: {'identifier': 'battery_status', 'dependencies': OrderedDict()}
+[0.001114] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001147] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001170] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces')])}
+[0.001529] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.099020] (-) TimerEvent: {}
+[0.132236] (battery_status) JobStarted: {'identifier': 'battery_status'}
+[0.199151] (-) TimerEvent: {}
+[0.254998] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.299304] (-) TimerEvent: {}
+[0.376751] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.377740] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.378501] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.382182] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'cmake'}
+[0.383370] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'build'}
+[0.384898] (battery_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thieulong/ROS2-WorkSpace/build/battery_status', '--', '-j8', '-l8'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/battery_status', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/battery_status'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.391632] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.393290] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.394006] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.399428] (-) TimerEvent: {}
+[0.449375] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.472661] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_generator_c\x1b[0m\n'}
+[0.484483] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[0.497453] (battery_status) StdoutLine: {'line': b'[  2%] Built target battery_status__cpp\n'}
+[0.499551] (-) TimerEvent: {}
+[0.506739] (battery_status) StdoutLine: {'line': b'[ 12%] Built target battery_status__rosidl_generator_c\n'}
+[0.508814] (battery_status) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_battery_status\n'}
+[0.525402] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.525712] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.527121] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.527863] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.533899] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.537841] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.538106] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.558144] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_c\x1b[0m\n'}
+[0.560360] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.582572] (battery_status) StdoutLine: {'line': b'[ 33%] Built target battery_status__rosidl_typesupport_fastrtps_cpp\n'}
+[0.582811] (battery_status) StdoutLine: {'line': b'[ 33%] Built target battery_status__rosidl_typesupport_cpp\n'}
+[0.590635] (battery_status) StdoutLine: {'line': b'[ 43%] Built target battery_status__rosidl_typesupport_c\n'}
+[0.595976] (battery_status) StdoutLine: {'line': b'[ 53%] Built target battery_status__rosidl_typesupport_introspection_c\n'}
+[0.599410] (battery_status) StdoutLine: {'line': b'[ 64%] Built target battery_status__rosidl_typesupport_introspection_cpp\n'}
+[0.599681] (-) TimerEvent: {}
+[0.605013] (battery_status) StdoutLine: {'line': b'[ 74%] Built target battery_status__rosidl_typesupport_fastrtps_c\n'}
+[0.640046] (battery_status) StdoutLine: {'line': b'[ 74%] Built target battery_status\n'}
+[0.676081] (battery_status) StdoutLine: {'line': b'[ 76%] Built target battery_status__py\n'}
+[0.693337] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_generator_py\x1b[0m\n'}
+[0.699803] (-) TimerEvent: {}
+[0.721998] (battery_status) StdoutLine: {'line': b'[ 84%] Built target battery_status__rosidl_generator_py\n'}
+[0.755372] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.776963] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.783474] (battery_status) StdoutLine: {'line': b'[ 89%] Built target battery_status__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.784778] (battery_status) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.800712] (-) TimerEvent: {}
+[0.811108] (battery_status) StdoutLine: {'line': b'[ 94%] Built target battery_status__rosidl_typesupport_c__pyext\n'}
+[0.816004] (battery_status) StdoutLine: {'line': b'[100%] Built target battery_status__rosidl_typesupport_introspection_c__pyext\n'}
+[0.829808] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.835731] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.846977] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.900788] (-) TimerEvent: {}
+[0.933432] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000890] (-) TimerEvent: {}
+[1.101371] (-) TimerEvent: {}
+[1.201815] (-) TimerEvent: {}
+[1.223771] (battery_status) StdoutLine: {'line': b'running egg_info\n'}
+[1.225050] (battery_status) StdoutLine: {'line': b'writing battery_status.egg-info/PKG-INFO\n'}
+[1.225340] (battery_status) StdoutLine: {'line': b'writing dependency_links to battery_status.egg-info/dependency_links.txt\n'}
+[1.225622] (battery_status) StdoutLine: {'line': b'writing top-level names to battery_status.egg-info/top_level.txt\n'}
+[1.254797] (battery_status) StdoutLine: {'line': b"reading manifest file 'battery_status.egg-info/SOURCES.txt'\n"}
+[1.256540] (battery_status) StdoutLine: {'line': b"writing manifest file 'battery_status.egg-info/SOURCES.txt'\n"}
+[1.301933] (-) TimerEvent: {}
+[1.373030] (battery_status) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_battery_status_egg\n'}
+[1.394304] (battery_status) CommandEnded: {'returncode': 0}
+[1.402413] (-) TimerEvent: {}
+[1.503132] (-) TimerEvent: {}
+[1.524320] (battery_status) JobProgress: {'identifier': 'battery_status', 'progress': 'install'}
+[1.552556] (battery_status) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thieulong/ROS2-WorkSpace/build/battery_status'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/battery_status', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/battery_status'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.579853] (battery_status) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.580327] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/rosidl_interfaces/battery_status\n'}
+[1.581041] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.581486] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.581784] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/led_state.h\n'}
+[1.581981] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.582154] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.582325] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__functions.h\n'}
+[1.582499] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.h\n'}
+[1.582660] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__struct.h\n'}
+[1.582810] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__functions.c\n'}
+[1.582976] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.583248] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/set_led.h\n'}
+[1.583402] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.584573] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__functions.h\n'}
+[1.584991] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.h\n'}
+[1.585162] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__functions.c\n'}
+[1.585317] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__struct.h\n'}
+[1.585491] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/library_path.sh\n'}
+[1.585691] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/library_path.dsv\n'}
+[1.585926] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_c.so\n'}
+[1.586201] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.586506] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.586787] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.586974] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.587152] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.587331] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.587707] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.587901] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[1.588280] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_c.so\n'}
+[1.588456] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.588677] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.588852] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.589017] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_introspection_c.h\n'}
+[1.589222] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.c\n'}
+[1.589396] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.589574] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.589741] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.589905] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[1.590112] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.c\n'}
+[1.590474] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_c.so\n'}
+[1.590789] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_c.so\n'}
+[1.591053] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.591353] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.591498] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.591652] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__traits.hpp\n'}
+[1.591802] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__builder.hpp\n'}
+[1.591909] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__struct.hpp\n'}
+[1.591995] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/led_state.hpp\n'}
+[1.592099] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.592189] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.592325] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__struct.hpp\n'}
+[1.592411] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__traits.hpp\n'}
+[1.592494] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__builder.hpp\n'}
+[1.592750] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/set_led.hpp\n'}
+[1.592977] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.593069] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.593155] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.593241] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.593324] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/dds_fastrtps\n'}
+[1.593410] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.593493] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.593603] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.593718] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/dds_fastrtps\n'}
+[1.593822] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.593951] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.594071] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status\n'}
+[1.594183] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg\n'}
+[1.594294] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail\n'}
+[1.594404] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__type_support.cpp\n'}
+[1.594508] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.594643] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv\n'}
+[1.594817] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail\n'}
+[1.595089] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__type_support.cpp\n'}
+[1.595292] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/include/battery_status/battery_status/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.598029] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_introspection_cpp.so\n'}
+[1.600376] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_typesupport_cpp.so\n'}
+[1.600975] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/pythonpath.sh\n'}
+[1.601575] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/pythonpath.dsv\n'}
+[1.601812] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info\n'}
+[1.602665] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.603951] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.604275] (-) TimerEvent: {}
+[1.605511] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.605826] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.607249] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status\n'}
+[1.607573] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.607754] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg\n'}
+[1.607893] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/_led_state_s.c\n'}
+[1.608041] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/_led_state.py\n'}
+[1.608209] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg/__init__.py\n'}
+[1.608377] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.608569] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv\n'}
+[1.608768] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/_set_led_s.c\n'}
+[1.609216] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/_set_led.py\n'}
+[1.609378] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv/__init__.py\n'}
+[1.609543] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.609777] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.609928] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/libbattery_status__rosidl_generator_py.so\n'}
+[1.610067] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.610214] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/__init__.py\n'}
+[1.610367] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/_battery_status_s.ep.rosidl_typesupport_c.c\n'}
+[1.689722] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status'...\n"}
+[1.690022] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/msg'...\n"}
+[1.690209] (battery_status) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/srv'...\n"}
+[1.702492] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.703052] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.703778] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages/battery_status/battery_status_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.704370] (-) TimerEvent: {}
+[1.704663] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/lib/libbattery_status__rosidl_generator_py.so\n'}
+[1.705033] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/msg/LEDState.idl\n'}
+[1.705364] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED.idl\n'}
+[1.705764] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/msg/LEDState.msg\n'}
+[1.705963] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED.srv\n'}
+[1.706132] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED_Request.msg\n'}
+[1.706292] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/srv/SetLED_Response.msg\n'}
+[1.706443] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/package_run_dependencies/battery_status\n'}
+[1.706600] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/parent_prefix_path/battery_status\n'}
+[1.706753] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/ament_prefix_path.sh\n'}
+[1.708342] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/ament_prefix_path.dsv\n'}
+[1.708489] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/path.sh\n'}
+[1.708621] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/environment/path.dsv\n'}
+[1.708715] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.bash\n'}
+[1.708805] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.sh\n'}
+[1.708910] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.zsh\n'}
+[1.709010] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/local_setup.dsv\n'}
+[1.709095] (battery_status) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/package.dsv\n'}
+[1.709178] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/ament_index/resource_index/packages/battery_status\n'}
+[1.709261] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cExport.cmake\n'}
+[1.709358] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.710127] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.710359] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.710647] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.710859] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.711225] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cExport.cmake\n'}
+[1.711413] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.711682] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_cppExport.cmake\n'}
+[1.712201] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.712602] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.712936] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.713172] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.713742] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cppExport.cmake\n'}
+[1.714317] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_status__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.721396] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_pyExport.cmake\n'}
+[1.721734] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/export_battery_status__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.721898] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake-extras.cmake\n'}
+[1.722037] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.722174] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.722654] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.723729] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.724074] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.724597] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.725018] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_statusConfig.cmake\n'}
+[1.725339] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/cmake/battery_statusConfig-version.cmake\n'}
+[1.736741] (battery_status) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/battery_status/share/battery_status/package.xml\n'}
+[1.736981] (battery_status) CommandEnded: {'returncode': 0}
+[1.740166] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.804566] (-) TimerEvent: {}
+[1.905112] (-) TimerEvent: {}
+[2.005906] (-) TimerEvent: {}
+[2.106568] (-) TimerEvent: {}
+[2.193901] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.206858] (-) TimerEvent: {}
+[2.307619] (-) TimerEvent: {}
+[2.408093] (-) TimerEvent: {}
+[2.508953] (-) TimerEvent: {}
+[2.554092] (battery_status) JobEnded: {'identifier': 'battery_status', 'rc': 0}
+[2.609105] (-) TimerEvent: {}
+[2.709473] (-) TimerEvent: {}
+[2.809929] (-) TimerEvent: {}
+[2.910321] (-) TimerEvent: {}
+[2.910644] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.971756] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.010464] (-) TimerEvent: {}
+[3.035068] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.035379] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.035547] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.098733] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.110601] (-) TimerEvent: {}
+[3.181675] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.185378] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces\n'}
+[3.210795] (-) TimerEvent: {}
+[3.225172] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.241391] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] Built target my_robot_interfaces__cpp\n'}
+[3.251623] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[3.269160] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.274721] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.282014] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[3.284601] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.305140] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.310159] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.310901] (-) TimerEvent: {}
+[3.325630] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.336551] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[3.355045] (my_robot_interfaces) StdoutLine: {'line': b'[ 33%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.372850] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.382580] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.386937] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[3.401467] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.411015] (-) TimerEvent: {}
+[3.439759] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces\n'}
+[3.488797] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__py\n'}
+[3.511128] (-) TimerEvent: {}
+[3.512590] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.544542] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[3.570030] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.579465] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.594380] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.611368] (-) TimerEvent: {}
+[3.614686] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.617979] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.619486] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.711470] (-) TimerEvent: {}
+[3.811902] (-) TimerEvent: {}
+[3.912363] (-) TimerEvent: {}
+[4.012792] (-) TimerEvent: {}
+[4.063528] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.065180] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[4.066460] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[4.066778] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[4.073106] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.075042] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.112948] (-) TimerEvent: {}
+[4.145719] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[4.171075] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[4.213218] (-) TimerEvent: {}
+[4.291533] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[4.292791] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[4.308367] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.308726] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[4.309017] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.309320] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.309729] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[4.309910] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.310067] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.310229] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[4.310374] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[4.310515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[4.310656] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[4.310796] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.310938] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[4.311285] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.311526] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[4.311725] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[4.311885] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[4.312097] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[4.312478] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[4.312746] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[4.312967] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[4.313147] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.313319] (-) TimerEvent: {}
+[4.313751] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.314085] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.314263] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.314762] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.315021] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.315245] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.315400] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[4.315555] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.315773] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.316025] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.316187] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.316852] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[4.317039] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[4.317940] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.318118] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.318443] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.318598] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[4.318753] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[4.319042] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.319219] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[4.319398] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.319556] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.320071] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[4.320220] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.320417] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[4.320572] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[4.320689] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[4.320926] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.321191] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[4.321431] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.321683] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[4.321919] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[4.322084] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[4.322345] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.322500] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.322645] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.322789] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.322903] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[4.323019] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.323141] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.323272] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.323415] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[4.323557] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.323716] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.323864] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[4.324051] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[4.324194] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[4.324324] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[4.324446] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.324586] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[4.324743] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[4.324893] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.325040] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[4.325188] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.325339] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.325716] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[4.325891] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[4.326049] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.326208] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.326444] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.326698] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.326992] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.327237] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[4.327470] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[4.327817] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[4.328227] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[4.328518] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[4.328740] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.329048] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[4.329229] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[4.329381] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[4.329551] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[4.329707] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.329855] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[4.330003] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.330145] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.330282] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[4.330399] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.330517] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.406259] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[4.406573] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...\n"}
+[4.406814] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[4.407172] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[4.413469] (-) TimerEvent: {}
+[4.418991] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.419461] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.420126] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.420550] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[4.420854] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[4.421021] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[4.421189] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[4.421447] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[4.421805] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[4.421988] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[4.422138] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[4.422344] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[4.422498] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[4.422643] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.422868] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[4.423151] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[4.423356] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[4.423532] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[4.423735] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[4.423948] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[4.424117] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[4.424315] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[4.425923] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.426108] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.426296] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.426448] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.426603] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.426800] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.427013] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.427159] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.427487] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.427646] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.427877] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.428013] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.428169] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.428307] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.428442] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.429361] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.429845] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.430495] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.430671] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.430817] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.430953] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.431108] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.431240] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.431367] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.431493] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[4.431613] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[4.431732] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[4.433528] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[4.513650] (-) TimerEvent: {}
+[4.614033] (-) TimerEvent: {}
+[4.714368] (-) TimerEvent: {}
+[4.814722] (-) TimerEvent: {}
+[4.915057] (-) TimerEvent: {}
+[5.016081] (-) TimerEvent: {}
+[5.088252] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[5.089682] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[5.116377] (-) TimerEvent: {}
+[5.217095] (-) TimerEvent: {}
+[5.317567] (-) TimerEvent: {}
+[5.418277] (-) TimerEvent: {}
+[5.518764] (-) TimerEvent: {}
+[5.619215] (-) TimerEvent: {}
+[5.719886] (-) TimerEvent: {}
+[5.820348] (-) TimerEvent: {}
+[5.920782] (-) TimerEvent: {}
+[6.021227] (-) TimerEvent: {}
+[6.121737] (-) TimerEvent: {}
+[6.222442] (-) TimerEvent: {}
+[6.322979] (-) TimerEvent: {}
+[6.423811] (-) TimerEvent: {}
+[6.526045] (-) TimerEvent: {}
+[6.626511] (-) TimerEvent: {}
+[6.726939] (-) TimerEvent: {}
+[6.827414] (-) TimerEvent: {}
+[6.927809] (-) TimerEvent: {}
+[7.028332] (-) TimerEvent: {}
+[7.129709] (-) TimerEvent: {}
+[7.230254] (-) TimerEvent: {}
+[7.331651] (-) TimerEvent: {}
+[7.420145] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build', 'install', '--record', '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/thieulong/ROS2-WorkSpace/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thieulong', 'LC_TIME': 'en_AU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/thieulong', 'OLDPWD': '/home/thieulong', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_AU.UTF-8', 'MANAGERPID': '2281', 'SYSTEMD_EXEC_PID': '2657', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '144910', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/thieulong/ROS2-WorkSpace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'thieulong', 'JOURNAL_STREAM': '8:41198', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thieulong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475', 'INVOCATION_ID': '1a4088b771d44b1d902ab319cdf0100d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_AU.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_AU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NJBJC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_AU.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_AU.UTF-8', 'LC_IDENTIFICATION': 'en_AU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_AU.UTF-8', 'LC_PAPER': 'en_AU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status'}, 'shell': False}
+[7.431811] (-) TimerEvent: {}
+[7.532473] (-) TimerEvent: {}
+[7.632926] (-) TimerEvent: {}
+[7.733338] (-) TimerEvent: {}
+[7.749731] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[7.833451] (-) TimerEvent: {}
+[7.933916] (-) TimerEvent: {}
+[8.034404] (-) TimerEvent: {}
+[8.091627] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target cpp_node\n'}
+[8.134679] (-) TimerEvent: {}
+[8.235587] (-) TimerEvent: {}
+[8.312185] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.313540] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[8.314038] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[8.314388] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[8.314552] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[8.314733] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[8.318856] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[8.321162] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[8.321487] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[8.321668] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.322247] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[8.322701] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/battery_status_client.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[8.324049] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[8.324553] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.326560] (my_py_pkg) StdoutLine: {'line': b'copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[8.326892] (my_py_pkg) StdoutLine: {'line': b'copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/battery_status_client.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[8.328012] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[8.329007] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_status_client.py to battery_status_client.cpython-310.pyc\n'}
+[8.329373] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.330984] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.334644] (my_py_pkg) StdoutLine: {'line': b"removing '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.335105] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[8.335634] (-) TimerEvent: {}
+[8.336573] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.378938] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.379507] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.379737] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.379929] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.380133] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.380321] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.380499] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.381279] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.381462] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg\n'}
+[8.381768] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log'\n"}
+[8.435549] (my_py_pkg) CommandEnded: {'returncode': 0}
+[8.436232] (-) TimerEvent: {}
+[8.536763] (-) TimerEvent: {}
+[8.601836] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[8.636887] (-) TimerEvent: {}
+[8.737251] (-) TimerEvent: {}
+[8.837600] (-) TimerEvent: {}
+[8.938166] (-) TimerEvent: {}
+[9.039310] (-) TimerEvent: {}
+[9.139653] (-) TimerEvent: {}
+[9.240050] (-) TimerEvent: {}
+[9.340393] (-) TimerEvent: {}
+[9.440940] (-) TimerEvent: {}
+[9.541659] (-) TimerEvent: {}
+[9.642152] (-) TimerEvent: {}
+[9.743165] (-) TimerEvent: {}
+[9.843639] (-) TimerEvent: {}
+[9.900973] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[9.943770] (-) TimerEvent: {}
+[10.044446] (-) TimerEvent: {}
+[10.144945] (-) TimerEvent: {}
+[10.245498] (-) TimerEvent: {}
+[10.345938] (-) TimerEvent: {}
+[10.367352] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target robot_news_station\n'}
+[10.446064] (-) TimerEvent: {}
+[10.546398] (-) TimerEvent: {}
+[10.646717] (-) TimerEvent: {}
+[10.747341] (-) TimerEvent: {}
+[10.847973] (-) TimerEvent: {}
+[10.948430] (-) TimerEvent: {}
+[11.049044] (-) TimerEvent: {}
+[11.149736] (-) TimerEvent: {}
+[11.250671] (-) TimerEvent: {}
+[11.351326] (-) TimerEvent: {}
+[11.451746] (-) TimerEvent: {}
+[11.552095] (-) TimerEvent: {}
+[11.652478] (-) TimerEvent: {}
+[11.752851] (-) TimerEvent: {}
+[11.853182] (-) TimerEvent: {}
+[11.953676] (-) TimerEvent: {}
+[12.054350] (-) TimerEvent: {}
+[12.154721] (-) TimerEvent: {}
+[12.255062] (-) TimerEvent: {}
+[12.355356] (-) TimerEvent: {}
+[12.455673] (-) TimerEvent: {}
+[12.555998] (-) TimerEvent: {}
+[12.656338] (-) TimerEvent: {}
+[12.756623] (-) TimerEvent: {}
+[12.857063] (-) TimerEvent: {}
+[12.957583] (-) TimerEvent: {}
+[13.058389] (-) TimerEvent: {}
+[13.159057] (-) TimerEvent: {}
+[13.259368] (-) TimerEvent: {}
+[13.359739] (-) TimerEvent: {}
+[13.460079] (-) TimerEvent: {}
+[13.560489] (-) TimerEvent: {}
+[13.660822] (-) TimerEvent: {}
+[13.761135] (-) TimerEvent: {}
+[13.861562] (-) TimerEvent: {}
+[13.961906] (-) TimerEvent: {}
+[14.062248] (-) TimerEvent: {}
+[14.162601] (-) TimerEvent: {}
+[14.263045] (-) TimerEvent: {}
+[14.363422] (-) TimerEvent: {}
+[14.464138] (-) TimerEvent: {}
+[14.564525] (-) TimerEvent: {}
+[14.664856] (-) TimerEvent: {}
+[14.765227] (-) TimerEvent: {}
+[14.865699] (-) TimerEvent: {}
+[14.966406] (-) TimerEvent: {}
+[15.066792] (-) TimerEvent: {}
+[15.167409] (-) TimerEvent: {}
+[15.267836] (-) TimerEvent: {}
+[15.368172] (-) TimerEvent: {}
+[15.468479] (-) TimerEvent: {}
+[15.568961] (-) TimerEvent: {}
+[15.669271] (-) TimerEvent: {}
+[15.769756] (-) TimerEvent: {}
+[15.870469] (-) TimerEvent: {}
+[15.970831] (-) TimerEvent: {}
+[16.071227] (-) TimerEvent: {}
+[16.171614] (-) TimerEvent: {}
+[16.271946] (-) TimerEvent: {}
+[16.372449] (-) TimerEvent: {}
+[16.473225] (-) TimerEvent: {}
+[16.573984] (-) TimerEvent: {}
+[16.674527] (-) TimerEvent: {}
+[16.770989] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[16.774656] (-) TimerEvent: {}
+[16.875032] (-) TimerEvent: {}
+[16.975551] (-) TimerEvent: {}
+[17.076092] (-) TimerEvent: {}
+[17.176670] (-) TimerEvent: {}
+[17.277065] (-) TimerEvent: {}
+[17.377378] (-) TimerEvent: {}
+[17.477829] (-) TimerEvent: {}
+[17.544920] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[17.561314] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[17.577975] (-) TimerEvent: {}
+[17.604316] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[17.606300] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/lib:/home/thieulong/ROS2-WorkSpace/install/battery_status/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2281'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '144910'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:41198'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2475,unix/x1-carbon:/tmp/.ICE-unix/2475'), ('INVOCATION_ID', '1a4088b771d44b1d902ab319cdf0100d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NJBJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c106b07d-584a-43d9-9efe-ca2db6259144'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/thieulong/ROS2-WorkSpace/install/battery_status/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_robot_interfaces:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/battery_status:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[17.619206] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.619908] (my_cpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.620669] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[17.621063] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[17.621357] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[17.621785] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[17.622374] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[17.622891] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[17.623193] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[17.623614] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[17.623940] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[17.624512] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[17.624929] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[17.625352] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[17.625669] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[17.625968] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[17.641421] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[17.641887] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[17.642097] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[17.642301] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[17.644624] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[17.678470] (-) TimerEvent: {}
+[17.778740] (-) TimerEvent: {}
+[17.879101] (-) TimerEvent: {}
+[17.929443] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[17.933618] (-) EventReactorShutdown: {}

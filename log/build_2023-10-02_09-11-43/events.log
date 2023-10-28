@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000229] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000467] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.085069] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.086217] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.086267] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thieulong'), ('LC_TIME', 'en_AU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thieulong'), ('OLDPWD', '/home/thieulong/ROS2-WorkSpace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_AU.UTF-8'), ('MANAGERPID', '2260'), ('SYSTEMD_EXEC_PID', '2639'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '338304'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thieulong'), ('JOURNAL_STREAM', '8:43332'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thieulong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thieulong/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x1-carbon:@/tmp/.ICE-unix/2428,unix/x1-carbon:/tmp/.ICE-unix/2428'), ('INVOCATION_ID', '499caed91fa44ffdb157eee02c4b5121'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_AU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_AU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EI8RB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_AU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:82cbd72f-5b20-48e8-b9fc-fc23c7ef2c51'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_AU.UTF-8'), ('LC_IDENTIFICATION', 'en_AU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_AU.UTF-8'), ('LC_PAPER', 'en_AU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thieulong/ROS2-WorkSpace/install/my_cpp_pkg:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099835] (-) TimerEvent: {}
+[0.122350] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[0.134917] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target robot_news_station\n'}
+[0.135087] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target cpp_node\n'}
+[0.137887] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.199964] (-) TimerEvent: {}
+[0.300272] (-) TimerEvent: {}
+[0.400561] (-) TimerEvent: {}
+[0.500898] (-) TimerEvent: {}
+[0.601211] (-) TimerEvent: {}
+[0.701541] (-) TimerEvent: {}
+[0.801895] (-) TimerEvent: {}
+[0.902228] (-) TimerEvent: {}
+[1.002540] (-) TimerEvent: {}
+[1.102860] (-) TimerEvent: {}
+[1.203183] (-) TimerEvent: {}
+[1.303508] (-) TimerEvent: {}
+[1.403829] (-) TimerEvent: {}
+[1.504157] (-) TimerEvent: {}
+[1.604482] (-) TimerEvent: {}
+[1.704749] (-) TimerEvent: {}
+[1.805041] (-) TimerEvent: {}
+[1.905348] (-) TimerEvent: {}
+[2.005661] (-) TimerEvent: {}
+[2.105973] (-) TimerEvent: {}
+[2.206292] (-) TimerEvent: {}
+[2.306602] (-) TimerEvent: {}
+[2.406894] (-) TimerEvent: {}
+[2.466784] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSmartphoneNode::SmartphoneNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.466972] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:10:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.467048] (my_cpp_pkg) StderrLine: {'line': b'   10 |         std::bind(&SmartphoneNode\x1b[01;31m\x1b[K:\x1b[m\x1b[KcallbackRobotNews, this, std::placeholders::_1));\n'}
+[2.467112] (my_cpp_pkg) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.467172] (my_cpp_pkg) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[2.507024] (-) TimerEvent: {}
+[2.607318] (-) TimerEvent: {}
+[2.707609] (-) TimerEvent: {}
+[2.807895] (-) TimerEvent: {}
+[2.908195] (-) TimerEvent: {}
+[3.008489] (-) TimerEvent: {}
+[3.108783] (-) TimerEvent: {}
+[3.209075] (-) TimerEvent: {}
+[3.309333] (-) TimerEvent: {}
+[3.409640] (-) TimerEvent: {}
+[3.510091] (-) TimerEvent: {}
+[3.610385] (-) TimerEvent: {}
+[3.710680] (-) TimerEvent: {}
+[3.810983] (-) TimerEvent: {}
+[3.911269] (-) TimerEvent: {}
+[4.011613] (-) TimerEvent: {}
+[4.111972] (-) TimerEvent: {}
+[4.212303] (-) TimerEvent: {}
+[4.312629] (-) TimerEvent: {}
+[4.412993] (-) TimerEvent: {}
+[4.513294] (-) TimerEvent: {}
+[4.613629] (-) TimerEvent: {}
+[4.713967] (-) TimerEvent: {}
+[4.814310] (-) TimerEvent: {}
+[4.914629] (-) TimerEvent: {}
+[5.014951] (-) TimerEvent: {}
+[5.052390] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1\n'}
+[5.052640] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2\n'}
+[5.052838] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.054772] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[5.115138] (-) TimerEvent: {}
+[5.168080] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[5.178779] (-) EventReactorShutdown: {}

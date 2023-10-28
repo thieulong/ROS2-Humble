@@ -1,0 +1,54 @@
+[0.928s] Invoking command in '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build
+[1.255s] running develop
+[1.503s] Removing /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.536s] Invoked command in '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg' returned '0': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build
+[1.538s] Invoking command in '/home/thieulong/ROS2-WorkSpace/src/my_py_pkg': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build install --record /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log --single-version-externally-managed
+[1.817s] running egg_info
+[1.817s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.817s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.817s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.818s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.818s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.819s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.820s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.820s] running build
+[1.821s] running build_py
+[1.821s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.821s] copying my_py_pkg/add_two_ints_server.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.821s] copying my_py_pkg/number_counter.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.821s] copying my_py_pkg/add_two_ints_client.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.821s] copying my_py_pkg/number_publisher.py -> /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg
+[1.821s] running install
+[1.821s] running install_lib
+[1.822s] creating /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.822s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.822s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.822s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] copying /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.823s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.823s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[1.824s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.824s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.824s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.825s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[1.825s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.825s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[1.825s] byte-compiling /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[1.826s] running install_data
+[1.826s] running install_egg_info
+[1.828s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.829s] running install_scripts
+[1.853s] Installing add_two_ints_client_no_oop script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing add_two_ints_server script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing number_counter script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing number_publisher script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing py_node script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing robot_news_station script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing smartphone script to /home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/my_py_pkg
+[1.854s] writing list of installed files to '/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log'
+[1.886s] Invoked command in '/home/thieulong/ROS2-WorkSpace/src/my_py_pkg' returned '0': PYTHONPATH=/home/thieulong/ROS2-WorkSpace/build/my_py_pkg/prefix_override:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/build install --record /home/thieulong/ROS2-WorkSpace/build/my_py_pkg/install.log --single-version-externally-managed

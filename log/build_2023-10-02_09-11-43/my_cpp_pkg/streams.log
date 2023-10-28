@@ -1,0 +1,14 @@
+[0.088s] Invoking command in '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg -- -j8 -l8
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.134s] [ 66%] Built target robot_news_station
+[0.135s] [ 66%] Built target cpp_node
+[0.137s] [ 83%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[2.466s] [01m[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartphoneNode::SmartphoneNode()[m[K’:
+[2.466s] [01m[K/home/thieulong/ROS2-WorkSpace/src/my_cpp_pkg/src/smartphone.cpp:10:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[2.467s]    10 |         std::bind(&SmartphoneNode[01;31m[K:[m[KcallbackRobotNews, this, std::placeholders::_1));
+[2.467s]       |                                  [01;31m[K^[m[K
+[2.467s]       |                                  [32m[K::[m[K
+[5.052s] gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+[5.052s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+[5.052s] gmake: *** [Makefile:146: all] Error 2
+[5.054s] Invoked command in '/home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thieulong/ROS2-WorkSpace/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/thieulong/ROS2-WorkSpace/build/my_cpp_pkg -- -j8 -l8
